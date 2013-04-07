@@ -12,19 +12,6 @@ body {
 }
 
 /* Navbar Ayarları */
-
-/*
-.brand-text {
-    color: var(--main-blue);
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-}
-
-.brand-subtext {
-    font-size: 0.75rem;
-}
-*/
-
 .brand-subtext {
     font-size: 0.7rem;
     font-weight: 400;
@@ -134,10 +121,8 @@ body {
     color: var(--main-blue) !important;
 }
 
-
 /* Hakkımda Sayfası Özel Stilleri */
 .page-header {
-    /*background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);*/
     margin-bottom: 2rem;
 	text-shadow: 1px 1px 10px #fff, 1px 1px 10px #fff;
 }
@@ -182,8 +167,6 @@ body {
 	background-size: cover;
     background-position: right;
 }
-
-
 
 .about-image-wrapper {
     transition: transform 0.4s ease;
@@ -270,7 +253,6 @@ body {
     color: var(--main-blue) !important;
 }
 
-
 /* Projeler Sayfası Özel Stilleri */
 .project-hub-card {
     background: #fff;
@@ -301,8 +283,6 @@ body {
 .card-title {
     color: var(--main-blue);
 }
-
-
 
 /* İletişim Sayfası Özel Stilleri */
 .contact-icon {
@@ -342,7 +322,6 @@ body {
     color: #555;
 }
 
-
 /* Sertifikalar Sayfası Stilleri */
 .certificate-code {
     background-color: #f1f8fd;
@@ -365,7 +344,6 @@ body {
 .bg-primary {
     background-color: var(--main-blue) !important;
 }
-
 
 /* Makale İçeriği Stilleri */
 .post-content p {
@@ -419,8 +397,6 @@ body {
     padding-left: 25px;
     padding-right: 25px;
 }
-
-
 
 /* Dil Kartları Stilleri */
 .language-card-link {
