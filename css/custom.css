@@ -1,0 +1,442 @@
+/* Ana Renk Tanımlaması (Logonuzdaki Mavi Tonu) */
+:root {
+    --main-blue: #34a1e2;
+    --dark-blue: #2589c3;
+    --light-bg: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: var(--light-bg);
+}
+
+/* Navbar Ayarları */
+
+/*
+.brand-text {
+    color: var(--main-blue);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.brand-subtext {
+    font-size: 0.75rem;
+}
+*/
+
+.brand-subtext {
+    font-size: 0.7rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 2px;
+    color: #6c757d;  
+}
+
+.brand-text {
+    color: var(--main-blue);
+    font-size: 1.7rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--main-blue) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+                url('../img/webkolog-monitor.jpg'); /* Örnek Hero Resmi */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.hero-section .container {
+	color: rgba(255, 255, 255, 0.0);
+	transition: color 0.5s ease;
+}
+
+.hero-section:hover .container {
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.5s ease;
+}
+
+.btn-primary {
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+}
+
+/* Blog Kartları */
+.blog-card {
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-meta {
+    font-size: 0.85rem;
+}
+
+.section-title {
+    border-left: 5px solid var(--main-blue);
+    padding-left: 15px;
+}
+
+/* Sidebar */
+.category-list li {
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.category-list a {
+    color: #555;
+    transition: color 0.2s;
+}
+
+.category-list a:hover {
+    color: var(--main-blue);
+}
+
+/* Footer */
+.footer {
+    border-top: 4px solid var(--main-blue);
+}
+
+.footer-links a:hover {
+    color: var(--main-blue) !important;
+    padding-left: 5px;
+    transition: all 0.3s;
+}
+
+.social-links a {
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+.text-primary {
+    color: var(--main-blue) !important;
+}
+
+
+/* Hakkımda Sayfası Özel Stilleri */
+.page-header {
+    /*background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);*/
+    margin-bottom: 2rem;
+	text-shadow: 1px 1px 10px #fff, 1px 1px 10px #fff;
+}
+
+.banner-about {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-hakkimda.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-service {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-hizmetlerim.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-project {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-projelerim.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-contact {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-iletisim.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-read {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-oku.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-404 {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-404.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-cert {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-sertifikalarim.jpg');
+	background-size: cover;
+    background-position: right;
+}
+.banner-language {
+	background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url('../img/banner-language.jpg');
+	background-size: cover;
+    background-position: right;
+}
+
+
+
+.about-image-wrapper {
+    transition: transform 0.4s ease;
+}
+
+.about-image-wrapper:hover {
+    transform: scale(1.03);
+}
+
+.skill-item span {
+    font-weight: 500;
+    color: #444;
+}
+
+.progress {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.interest-card {
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.interest-card:hover {
+    border-color: var(--main-blue) !important;
+    background-color: var(--light-bg);
+    transform: translateY(-5px);
+}
+
+.interest-card i {
+    display: block;
+}
+
+.breadcrumb-item.active {
+    color: var(--main-blue);
+    font-weight: bold;
+}
+
+
+/* Hizmetlerim Sayfası Özel Stilleri */
+.service-card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(52, 161, 226, 0.15) !important;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 100px;
+    background: rgba(52, 161, 226, 0.05);
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+    background: var(--main-blue);
+}
+
+.service-card:hover .service-icon i {
+    color: #fff !important;
+}
+
+.bg-primary {
+    background-color: var(--main-blue) !important;
+}
+
+.text-primary {
+    color: var(--main-blue) !important;
+}
+
+
+/* Projeler Sayfası Özel Stilleri */
+.project-hub-card {
+    background: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.project-hub-card:hover {
+    transform: translateY(-5px);
+    border-bottom: 3px solid var(--main-blue);
+}
+
+.table-primary {
+    background-color: var(--main-blue) !important;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.8em;
+}
+
+/* Tablo Hover Efekti */
+.table-hover tbody tr:hover {
+    background-color: rgba(52, 161, 226, 0.05);
+}
+
+/* Yatay Proje Kartı (3D Yazıcı için) */
+.card-title {
+    color: var(--main-blue);
+}
+
+
+
+/* İletişim Sayfası Özel Stilleri */
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.btn-social {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.btn-social:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-control:focus {
+    background-color: #fff !important;
+    box-shadow: 0 0 0 0.25rem rgba(52, 161, 226, 0.2);
+    outline: none;
+}
+
+#contactForm label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+/* Sertifikalar Sayfası Stilleri */
+.certificate-code {
+    background-color: #f1f8fd;
+    color: var(--dark-blue);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    border: 1px solid #d1e9f9;
+}
+
+.table-hover tbody tr {
+    transition: background-color 0.2s;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(52, 161, 226, 0.03);
+}
+
+.bg-primary {
+    background-color: var(--main-blue) !important;
+}
+
+
+/* Makale İçeriği Stilleri */
+.post-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.post-content h4 {
+    color: var(--dark-blue);
+    margin-top: 2rem;
+}
+
+.blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.blog-post img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+/* Sidebar Küçük Yazı Listesi */
+.small-post-list a:hover {
+    color: var(--main-blue) !important;
+}
+
+/* Arama Widget Stilleri */
+.search-widget .input-group {
+    background: #fff;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.search-widget .input-group:focus-within {
+    border-color: var(--main-blue);
+    box-shadow: 0 5px 15px rgba(52, 161, 226, 0.1) !important;
+}
+
+.search-widget input::placeholder {
+    color: #bbb;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.search-widget .btn-primary {
+    border-radius: 0; /* Pill yapısı parent'tan geliyor */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+/* Dil Kartları Stilleri */
+.language-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.language-card {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--main-blue);
+    color: white !important;
+}
+
+.language-card:hover .text-muted {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+.language-card span {
+    display: block;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
