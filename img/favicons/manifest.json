@@ -1,0 +1,22 @@
+{
+    "name": "Webkolog - Ali Candan",
+    "short_name": "Webkolog",
+    "description": "Ali Candan'ın resmi web sitesi.",
+    "icons": [
+        {
+            "src": "https://cdn.jsdelivr.net/gh/webkolog/webkolog.net-cdn/img/favicon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn.jsdelivr.net/gh/webkolog/webkolog.net-cdn/img/favicon-228.png",
+            "sizes": "228x228",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2FA4E7",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "start_url": "https://www.webkolog.net/",
+    "scope": "https://www.webkolog.net/"
+}

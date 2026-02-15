@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square150x150logo src="https://cdn.jsdelivr.net/gh/webkolog/webkolog.net-cdn/img/favicon-150.png"/>
+      <TileColor>#2FA4E7</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
