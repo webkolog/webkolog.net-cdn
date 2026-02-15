@@ -219,11 +219,18 @@ body {
     display: block;
 }
 
-.breadcrumb-item.active {
-    color: var(--main-blue);
+.breadcrumb {
+	--bs-breadcrumb-divider: '»';
+	font-size: 0.85rem;
+}
+
+.breadcrumb-item {
     font-weight: bold;
 }
 
+.breadcrumb-item.active, .breadcrumb-item a:hover {
+	color: var(--main-blue) !important;
+}
 
 /* Hizmetlerim Sayfası Özel Stilleri */
 .service-card {
