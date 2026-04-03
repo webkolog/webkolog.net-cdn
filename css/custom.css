@@ -447,3 +447,29 @@ body {
     display: block;
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
+
+/* Music Player */
+.music-player {
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+
+.music-player:hover {
+    box-shadow: 0 5px 15px rgba(52, 161, 226, 0.1) !important;
+}
+
+#play-pause-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+#play-pause-btn:hover {
+    background: rgba(52, 161, 226, 0.1);
+}
+
+.progress-bar {
+    background-color: var(--main-blue);
+    transition: width 0.1s linear;
+}
