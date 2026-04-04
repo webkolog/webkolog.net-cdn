@@ -469,12 +469,15 @@ body {
     background: rgba(52, 161, 226, 0.1);
 }
 
+#play-pause-btn:hover > li {
+    background: #34a1e2;
+}
+
 .progress-bar {
     background-color: var(--main-blue);
     transition: width 0.1s linear;
 }
 
-/* Music Player */
 .music-player-about {
     transition: transform 0.3s ease;
     border-left: 5px solid #34a1e2 !important; /* Webkolog Mavisi */
