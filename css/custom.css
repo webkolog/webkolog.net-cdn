@@ -492,3 +492,26 @@ body {
 #progress-container {
     background-color: rgba(0,0,0,0.05);
 }
+
+/* Kart içindeki linkin tüm kartı kaplamasını engellemek gerekebilir 
+   veya butona z-index vererek üstte kalmasını sağlayabiliriz */
+.language-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.play-audio-btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+    position: relative;
+}
+
+.play-audio-btn:hover {
+    transform: scale(1.1);
+}
