@@ -469,7 +469,11 @@ body {
     background: rgba(52, 161, 226, 0.1);
 }
 
-#play-pause-btn:hover .fa-play, #play-pause-btn:hover .fa-pause {
+#play-pause-btn:hover .fa-play {
+    color: #34a1e2;
+}
+
+#play-pause-btn:hover .fa-pause {
     color: #34a1e2;
 }
 
