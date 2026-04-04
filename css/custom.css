@@ -473,3 +473,15 @@ body {
     background-color: var(--main-blue);
     transition: width 0.1s linear;
 }
+
+/* Music Player */
+.music-player-about {
+    transition: transform 0.3s ease;
+    border-left: 5px solid #34a1e2 !important; /* Webkolog Mavisi */
+}
+.music-player-about:hover {
+    transform: translateY(-3px);
+}
+#progress-container {
+    background-color: rgba(0,0,0,0.05);
+}
