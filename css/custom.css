@@ -469,8 +469,8 @@ body {
     background: rgba(52, 161, 226, 0.1);
 }
 
-#play-pause-btn:hover > li {
-    background: #34a1e2;
+#play-pause-btn:hover .fa-play {
+    color: #34a1e2;
 }
 
 .progress-bar {
