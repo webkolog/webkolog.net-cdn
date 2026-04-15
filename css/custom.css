@@ -501,8 +501,8 @@ body {
 }
 
 .play-audio-btn {
-    width: 35px;
-    height: 35px;
+    width: 64px;
+    height: 64px;
     padding: 0;
     display: inline-flex;
     align-items: center;
